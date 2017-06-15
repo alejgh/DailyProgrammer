@@ -1,5 +1,0 @@
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/313-PGM/bin/Debug/313-PGM.exe
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/313-PGM/bin/Debug/313-PGM.pdb
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/313-PGM/obj/x86/Debug/313-PGM.csproj.CoreCompileInputs.cache
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/313-PGM/obj/x86/Debug/313-PGM.exe
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/313-PGM/obj/x86/Debug/313-PGM.pdb

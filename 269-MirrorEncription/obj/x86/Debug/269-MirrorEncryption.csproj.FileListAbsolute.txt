@@ -1,5 +1,0 @@
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/269-MirrorEncription/bin/Debug/269-MirrorEncription.exe
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/269-MirrorEncription/bin/Debug/269-MirrorEncription.pdb
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/269-MirrorEncription/obj/x86/Debug/269-MirrorEncryption.csproj.CoreCompileInputs.cache
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/269-MirrorEncription/obj/x86/Debug/269-MirrorEncription.exe
-/Users/alejandro/Documents/programming/c#/dailyprogrammer/269-MirrorEncription/obj/x86/Debug/269-MirrorEncription.pdb
