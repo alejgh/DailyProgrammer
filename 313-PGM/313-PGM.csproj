@@ -36,7 +36,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ImageUtil\ImageUtil.csproj">
+    <ProjectReference Include="..\Utils\ImageUtil\ImageUtil.csproj">
       <Project>{F8EE1D08-D82F-4FBD-937B-A62D5B444617}</Project>
       <Name>ImageUtil</Name>
     </ProjectReference>

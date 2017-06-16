@@ -1,9 +1,9 @@
 ﻿using System;
 namespace ImageUtil
 {
-    public class Writer
+    public class PGMWriter
     {
-        public Writer()
+        public PGMWriter()
         {
         }
     }

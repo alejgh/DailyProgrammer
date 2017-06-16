@@ -35,7 +35,7 @@
     <Compile Include="Writer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Extensions\Extensions.csproj">
+    <ProjectReference Include="..\Extensions\Extensions.csproj">
       <Project>{91107C7E-792A-4678-BF84-A60AAAE975BC}</Project>
       <Name>Extensions</Name>
     </ProjectReference>
