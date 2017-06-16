@@ -36,9 +36,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Utils\ImageUtil\ImageUtil.csproj">
+    <Folder Include="Files\" />
+    <Folder Include="Files\P2\" />
+    <Folder Include="Files\P5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Files\alibaba.pgm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utils\ImageUtil\PGM\PGM.csproj">
       <Project>{F8EE1D08-D82F-4FBD-937B-A62D5B444617}</Project>
-      <Name>ImageUtil</Name>
+      <Name>PGM</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

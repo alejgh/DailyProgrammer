@@ -2,9 +2,26 @@
 using System.IO;
 using System.Threading.Tasks;
 
-namespace MirrorEncryption
+namespace DailyProgrammer
 {
-    class Encrypter
+    class MirrorEncryption_269
+    {
+        public static void Main(string[] args)
+        {
+            String filePath = "example.txt";
+            if (args.Length < 1) {
+                Console.WriteLine("No file was given, using demo version.\n\n");
+            } else {
+                filePath = args[0];
+            }
+            Encrypter encrypter = new Encrypter(filePath);
+            encrypter.PrintGrid();
+            String result = encrypter.Decrypt();
+            Console.WriteLine("Result: {0}", result);
+        }
+    }
+
+    internal class Encrypter
     {
         const int GRID_SIZE = 15;
         const int INNER_GRID_SIZE = GRID_SIZE - 2;
@@ -18,20 +35,6 @@ namespace MirrorEncryption
         {
             get;
             private set;
-        }
-
-        public static void Main(string[] args)
-        {
-            String filePath = "example.txt";
-            if (args.Length < 1) {
-                Console.WriteLine("No file was given, using demo version.\n\n");
-            } else {
-                filePath = args[0];
-            }
-			Encrypter encrypter = new Encrypter(filePath);
-			encrypter.PrintGrid();
-            String result = encrypter.Decrypt();
-            Console.WriteLine("Result: {0}", result);
         }
 
         public Encrypter(String filePath)

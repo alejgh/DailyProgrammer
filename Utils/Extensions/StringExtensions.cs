@@ -6,6 +6,12 @@ namespace Extensions
 {
     public static class StringExtensions
     {
+        /// <summary>
+        /// Splits the string in words using a yield generator,
+        /// returning an IEnumerable<string>.
+        /// </summary>
+        /// <returns>IEnumerable containing the words of the string.</returns>
+        /// <param name="str">String to split in words.</param>
         public static IEnumerable<string> SplitWordsLazy(this string str)
         {
             int previousWordIndex = 0;
@@ -13,7 +19,6 @@ namespace Extensions
 
             foreach (char ch in str)
             {
-
                 if (char.IsWhiteSpace(ch))
                 {
                     yield return str.Substring(previousWordIndex, currentWordLength);
@@ -21,15 +26,6 @@ namespace Extensions
                     currentWordLength = 0;
                 }
                 else currentWordLength++;
-            }
-        }
-
-        public static IEnumerable<byte> GetBytesLazy(this string str)
-        {
-            byte[] bytes = Encoding.ASCII.GetBytes(str);
-            foreach (var b in bytes)
-            {
-                yield return b;
             }
         }
 
