@@ -20,7 +20,7 @@ and both the mirrors and the word to encrypt/decrypt are inputed as a text file.
 Here you have an example of my program's output using the file
 'alibaba.txt' (available in the repository) as an input:
 
-<pre>alejandro$ 269-MirrorEncryption -input_path=alibaba.txt
+<pre>
 Reading grid...
 
    | a | b | c | d | e | f | g | h | i | j | k | l | m |  
