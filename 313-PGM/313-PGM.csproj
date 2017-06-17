@@ -41,7 +41,27 @@
     <Folder Include="Files\P5\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Files\alibaba.pgm" />
+    <None Include="Files\P2\small.pgm" />
+    <None Include="Files\P2\smallL.pgm" />
+    <None Include="Files\P2\smallR.pgm" />
+    <None Include="Files\P5\small.pgm" />
+    <None Include="Files\.DS_Store" />
+    <None Include="Files\P2\.DS_Store" />
+    <None Include="Files\P2\smallENS.pgm" />
+    <None Include="Files\P2\smallWW.pgm" />
+    <None Include="Files\P3\.DS_Store" />
+    <None Include="Files\P3\colorSample.ppm" />
+    <None Include="Files\P3\colorSampleH.ppm" />
+    <None Include="Files\P3\colorSampleLVWW.ppm" />
+    <None Include="Files\P3\colorSampleRHVRCCDRR.ppm" />
+    <None Include="Files\P5\.DS_Store" />
+    <None Include="Files\P5\smallERRHL.pgm" />
+    <None Include="Files\P5\smallSFHBV.pgm" />
+    <None Include="Files\P6\.DS_Store" />
+    <None Include="Files\P6\colorSample.ppm" />
+    <None Include="Files\P6\colorSampleBC.ppm" />
+    <None Include="Files\P6\colorSampleCCHB.ppm" />
+    <None Include="Files\P6\colorSampleN.ppm" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Utils\ImageUtil\PGM\PGM.csproj">

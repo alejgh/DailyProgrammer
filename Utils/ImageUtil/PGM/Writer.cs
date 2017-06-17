@@ -1,6 +1,4 @@
-﻿using System;
-using System.Text;
-using System.Linq;
+﻿using System.Linq;
 using System.IO;
 
 namespace ImageUtil.PGM
@@ -12,9 +10,9 @@ namespace ImageUtil.PGM
             // write the header
             using (StreamWriter writer = new StreamWriter(filePath))
             {
-                writer.Write(img.Magic + ' ');
+				writer.Write(img.Magic + ' ');
+				writer.Write(img.numCols.ToString() + ' ');
                 writer.Write(img.numRows.ToString() + ' ');
-                writer.Write(img.numCols.ToString() + ' ');
                 writer.Write(img.maxColorVal.ToString());
                 writer.WriteLine();
                 writer.Flush();
