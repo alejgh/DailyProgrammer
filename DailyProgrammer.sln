@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageUtil", "ImageUtil", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGM", "Utils\ImageUtil\PGM\PGM.csproj", "{F8EE1D08-D82F-4FBD-937B-A62D5B444617}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "317-Elements", "317-Elements\317-Elements.csproj", "{04017759-96E4-446D-9FF7-7B6818E6F1FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -35,6 +37,10 @@ Global
 		{F8EE1D08-D82F-4FBD-937B-A62D5B444617}.Debug|x86.Build.0 = Debug|Any CPU
 		{F8EE1D08-D82F-4FBD-937B-A62D5B444617}.Release|x86.ActiveCfg = Release|Any CPU
 		{F8EE1D08-D82F-4FBD-937B-A62D5B444617}.Release|x86.Build.0 = Release|Any CPU
+		{04017759-96E4-446D-9FF7-7B6818E6F1FE}.Debug|x86.ActiveCfg = Debug|x86
+		{04017759-96E4-446D-9FF7-7B6818E6F1FE}.Debug|x86.Build.0 = Debug|x86
+		{04017759-96E4-446D-9FF7-7B6818E6F1FE}.Release|x86.ActiveCfg = Release|x86
+		{04017759-96E4-446D-9FF7-7B6818E6F1FE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{91107C7E-792A-4678-BF84-A60AAAE975BC} = {BFD93912-C7DA-4A76-BD7C-4E1C69200FEF}
