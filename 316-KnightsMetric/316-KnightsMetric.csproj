@@ -40,6 +40,10 @@
       <Project>{1ABC086D-13A3-4A3B-B679-B84545DCBDD0}</Project>
       <Name>Point</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Utils\CustomCollections\PriorityQueue\PriorityQueue.csproj">
+      <Project>{4F36AA0B-517E-471D-97F6-D7B7FA6ED6CF}</Project>
+      <Name>PriorityQueue</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

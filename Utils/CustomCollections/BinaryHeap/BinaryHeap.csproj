@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F36AA0B-517E-471D-97F6-D7B7FA6ED6CF}</ProjectGuid>
+    <ProjectGuid>{CB5FB820-E680-46F2-84E3-63F2CCAB184D}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>PriorityQueue</RootNamespace>
-    <AssemblyName>PriorityQueue</AssemblyName>
+    <RootNamespace>BinaryHeap</RootNamespace>
+    <AssemblyName>BinaryHeap</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -30,14 +30,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PriorityQueue.cs" />
+    <Compile Include="BinaryHeap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BinaryHeap\BinaryHeap.csproj">
-      <Project>{CB5FB820-E680-46F2-84E3-63F2CCAB184D}</Project>
-      <Name>BinaryHeap</Name>
-    </ProjectReference>
+    <Compile Include="Node.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
