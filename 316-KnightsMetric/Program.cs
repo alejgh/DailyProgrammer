@@ -37,7 +37,14 @@ namespace KnightsMetric
             AStar(start, goal);
         }
 
-
+        /// <summary>
+        /// We explore all the children of each node at each step,
+        /// ensuring that once we reach a solution it will be the one
+        /// with the least amount of moves. However we explore a lot of
+        /// nodes that won't reach to any solution, wasting a lot of time.
+        /// </summary>
+        /// <param name="start">Start.</param>
+        /// <param name="goal">Goal.</param>
         private static void BreadthFirstSearch(Point start, Point goal)
         {
             Queue<Point> queue = new Queue<Point>();
@@ -104,6 +111,11 @@ namespace KnightsMetric
             }
         }
 
+        /// <summary>
+        /// ASs the tar.
+        /// </summary>
+        /// <param name="start">Start.</param>
+        /// <param name="goal">Goal.</param>
         private static void AStar(Point start, Point goal)
         {
 			PriorityQueue<Point> queue = new PriorityQueue<Point>();
@@ -129,7 +141,7 @@ namespace KnightsMetric
 					Point neighbour = new Point(current.x + move.Item1, current.y + move.Item2);
 					if (!previous.ContainsKey(neighbour))
 					{
-                        int cost = costs[current] + 3;
+                        int cost = costs[current] + 3; // each 'move' moves 3 positions (L shape move)
 						int priority = cost + ManhattanDistance(neighbour, goal);
 						queue.Enqueue(neighbour, priority);
 						previous.Add(neighbour, current);
