@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text;
 using System.Collections.Generic;
 using Extensions;
@@ -18,7 +19,7 @@ namespace Utils
 
         public Deck(Card[] subdeck)
         {
-            this.cards = subdeck;
+            this.cards = subdeck.ToList();
         }
 
         public void ShuffleDeck()
@@ -62,6 +63,11 @@ namespace Utils
 			Card ret = cards[0];
 			cards.RemoveAt(0);
             return ret;
+        }
+
+        public int CardsLeft()
+        {
+            return cards.Count;
         }
 
         private int GetRandomIndex()

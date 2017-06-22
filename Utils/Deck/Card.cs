@@ -12,11 +12,11 @@ namespace Utils
 
 	public enum CardRank
 	{
-		ACE = 1,
-		TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE,
+		TWO = 2, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN,
 		JACK,
 		QUEEN,
 		KING,
+        ACE
 	}
 
     public class Card : IComparable<Card>
@@ -32,7 +32,7 @@ namespace Utils
             this.Rank = rank;
         }
 
-        public char GetSuitLetter() 
+        public char GetSuitChar() 
         {
             switch(this.Suit) {
                 case CardSuit.CLUBS:
@@ -48,7 +48,7 @@ namespace Utils
             }
         }
 
-        public char GetValue()
+        public char GetRankChar()
         {
             switch(this.Rank) {
                 case CardRank.ACE:
@@ -62,6 +62,11 @@ namespace Utils
 				default:
                     return ((int)this.Rank).ToString()[0];
             }
+        }
+
+        public int GetValue()
+        {
+            return (int)this.Rank;
         }
 
         public static bool operator==(Card a, Card b) 
@@ -94,7 +99,7 @@ namespace Utils
 
         public override string ToString()
         {
-            return string.Format("{0}{1}", this.GetValue(), this.GetSuitLetter());
+            return string.Format("{0}{1}", this.GetRankChar(), this.GetSuitChar());
         }
 
         public int CompareTo(Card other)
