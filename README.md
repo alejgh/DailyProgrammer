@@ -10,4 +10,6 @@ Simple challenges, at the moment only from https://www.reddit.com/r/dailyprogram
 
 * [Intermediate] [Counting elements](./317-Elements).
 
+* [Intermediate] [War card game](./320-War).
+
 * [Easy] [Knight's Metric](./316-KnightsMetric).
