@@ -4,7 +4,7 @@ Simple challenges, at the moment only from https://www.reddit.com/r/dailyprogram
 
 ## List of challenges:
 
-* [Intermediate] [Mirror Encryption](./269-MirrorEncryption).
+* [Intermediate] [Mirror Encryption](./269-MirrorEncription).
 
 * [Intermediate] [PGM Image manipulation](./313-PGM).
 
